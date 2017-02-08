@@ -113,7 +113,7 @@ config.verificationRequired    = false;  // on/off for user email verification a
 config.enhancedSecurity        = true;   // on/off for two factor authentication
 
 // Facebook
-config.facebookAuth            = true;
+config.facebookAuth            = false;
 config.facebook                = {};
 config.facebook.clientID       = process.env.FACEBOOK_KEY    || 'Your Key';
 config.facebook.clientSecret   = process.env.FACEBOOK_SECRET || 'Your Secret';
@@ -121,17 +121,17 @@ config.facebook.clientSecret   = process.env.FACEBOOK_SECRET || 'Your Secret';
 // Github
 config.githubAuth              = true;
 config.github                  = {};
-config.github.clientID         = process.env.GITHUB_KEY    || 'Your Key';
-config.github.clientSecret     = process.env.GITHUB_SECRET || 'Your Secret';
+config.github.clientID         = process.env.GITHUB_KEY    || '22504f68371cba9a8add';
+config.github.clientSecret     = process.env.GITHUB_SECRET || '1b4b7dd0ff272d9579537877df6f5c2a6a9a0d97';
 
 // Twitter
-config.twitterAuth             = true;
+config.twitterAuth             = false;
 config.twitter                 = {};
 config.twitter.consumerKey     = process.env.TWITTER_KEY    || 'Your Key';
 config.twitter.consumerSecret  = process.env.TWITTER_SECRET || 'Your Secret';
 
 // Google
-config.googleAuth              = true;
+config.googleAuth              = false;
 config.google                  = {};
 config.google.clientID         = process.env.GOOGLE_KEY    || 'Your Key';
 config.google.clientSecret     = process.env.GOOGLE_SECRET || 'Your Secret';

@@ -1,10 +1,10 @@
 {
   "private": true,
   "version": "1.0.0-65",
-  "name": "Skeleton",
-  "company": "Skeleton, Inc.",
+  "name": "My Daily Standup",
+  "company": "My Daily Standup, Inc.",
   "subdomain": "skeleton-app",
-  "description": "A friendly node and express framework",
+  "description": "We answer the question of 'what did I do yesterday' for you.",
   "author": "Dan Stroot",
   "keywords": [
     "skeleton",
